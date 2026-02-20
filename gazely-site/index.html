@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#DC6450" />
+  <title>Gazely — Reply with your eyes</title>
+  <meta name="description" content="Gazely helps people with motor impairments interpret messages and compose thoughtful replies using gaze control and AI." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Gazely — Reply with your eyes" />
+  <meta property="og:description" content="Hands-free message replies with gaze control, intent-first options, and AI-crafted responses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/icon-512.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Gazely">
+        <img class="brand-mark" src="assets/logo.webp" alt="Gazely logo" width="44" height="44" loading="eager" />
+        <span class="brand-name">Gazely</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary" data-nav>
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#screens">Screenshots</a>
+        <a href="#accessibility">Accessibility</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-small btn-ghost" href="#get">Get updates</a>
+      </nav>
+
+      <button class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill">Android app • Designed for motor impairments</p>
+          <h1>Reply with your eyes.</h1>
+          <p class="lead">
+            Gazely helps you interpret incoming messages and craft thoughtful replies without typing — using gaze control and AI.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#get">Join the waitlist</a>
+            <a class="btn btn-ghost" href="#how">See the flow</a>
+          </div>
+
+          <div class="mini-points" role="list">
+            <div role="listitem" class="mini">
+              <span class="mini-dot" aria-hidden="true"></span>
+              Share a message from WhatsApp/SMS → Gazely opens
+            </div>
+            <div role="listitem" class="mini">
+              <span class="mini-dot" aria-hidden="true"></span>
+              Pick intent + tone with look & dwell
+            </div>
+            <div role="listitem" class="mini">
+              <span class="mini-dot" aria-hidden="true"></span>
+              Copy, send, or refine responses instantly
+            </div>
+          </div>
+
+          <div class="note">
+            <strong>Early build:</strong> message transfer is manual via Share (no background reading).
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="App preview">
+          <div class="phone-frame">
+            <picture>
+              <source srcset="assets/screen-welcome.webp" type="image/webp" />
+              <img src="assets/screen-welcome.jpg" alt="Gazely welcome screen" loading="eager" />
+            </picture>
+          </div>
+          <div class="hero-badges" aria-hidden="true">
+            <div class="badge">Gaze cursor</div>
+            <div class="badge">Intent-first UI</div>
+            <div class="badge">AI-crafted replies</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- TRUST / VALUE -->
+    <section class="value">
+      <div class="container">
+        <div class="value-grid">
+          <div class="value-card">
+            <h2>Built for speed and clarity</h2>
+            <p>
+              Gazely surfaces 4 simple options at a time, so you can navigate quickly with your gaze and progressively narrow down the perfect reply.
+            </p>
+          </div>
+          <div class="value-card">
+            <h2>Thoughtful tone, automatically</h2>
+            <p>
+              Beyond selection, Gazely can use eye-based signals to help shape tone (gentle, firm, urgent, neutral) so replies feel more human.
+            </p>
+          </div>
+          <div class="value-card">
+            <h2>Works with your apps</h2>
+            <p>
+              Use any messaging app. Share a message into Gazely, generate a reply, then copy/share it back.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p>From message → intent → tone → reply. One screen at a time.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c2.5-4.5 13.5-4.5 16 0-2.5 4.5-13.5 4.5-16 0Z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Share a message</h3>
+              <p>Open WhatsApp/SMS (or any app), select a message, tap <strong>Share</strong>, then choose Gazely.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"/><path d="M4 12h10"/><path d="M4 17h16"/></svg>
+            </div>
+            <div>
+              <h3>Pick a general intent</h3>
+              <p>Gazely suggests four high-level directions (e.g., answer, ask a question, decline, other). Use look & dwell to select.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M2 12h20"/><path d="M7 7h10v10H7z"/></svg>
+            </div>
+            <div>
+              <h3>Narrow down details</h3>
+              <p>Choose from a specific set of options. Tap <em>More…</em> to see additional sets until you land on the right intent.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-4.4 7-10a7 7 0 0 0-14 0c0 5.6 7 10 7 10Z"/><path d="M9.5 10.5h.01"/><path d="M14.5 10.5h.01"/><path d="M9 14c1.2 1 2.4 1.5 3 1.5S13.8 15 15 14"/></svg>
+            </div>
+            <div>
+              <h3>Set the tone</h3>
+              <p>Select a tone (neutral, gentle, firm, urgent). Gazely can also combine eye-based emotion signals to help shape the final output.</p>
+            </div>
+          </li>
+
+          <li class="step">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/><path d="M7 8h10"/><path d="M7 12h7"/></svg>
+            </div>
+            <div>
+              <h3>Pick a reply & refine</h3>
+              <p>Choose from multiple AI-crafted replies. Hit <strong>Refine</strong> to regenerate a new style, then copy/share it back.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="flow-card">
+          <div class="flow-text">
+            <h3>Why 4 options?</h3>
+            <p>
+              Large targets are easier to select with gaze. Gazely keeps choices simple, then progressively reveals more detail only when you need it.
+            </p>
+            <p class="muted">
+              AI engine: Claude API (text generation). Platform: Android.
+            </p>
+          </div>
+          <div class="flow-media">
+            <picture>
+              <source srcset="assets/screen-howitworks.webp" type="image/webp" />
+              <img src="assets/screen-howitworks.jpg" alt="How it works screen" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Features</h2>
+          <p>Everything you need to respond confidently — without typing.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature">
+            <h3>Intent-first navigation</h3>
+            <p>Start broad, then get specific. Choose what you want to do before you generate text.</p>
+          </article>
+          <article class="feature">
+            <h3>Gaze control (look & dwell)</h3>
+            <p>Use eye tracking as a cursor to highlight and select options with minimal effort.</p>
+          </article>
+          <article class="feature">
+            <h3>Emotion-aware tone</h3>
+            <p>Optional eye-based emotion signals can help tune the tone so replies feel natural.</p>
+          </article>
+          <article class="feature">
+            <h3>Refine & regenerate</h3>
+            <p>Generate alternatives instantly — more concise, warmer, firmer, or clearer.</p>
+          </article>
+          <article class="feature">
+            <h3>Share in, share out</h3>
+            <p>No new inbox. Use your existing messaging apps and keep the workflow simple.</p>
+          </article>
+          <article class="feature">
+            <h3>Designed for accessibility</h3>
+            <p>Big tap targets, high contrast, and predictable steps — built to reduce cognitive load.</p>
+          </article>
+        </div>
+
+        <div class="feature-screens">
+          <button class="screen" data-lightbox="assets/screen-intent.webp" data-fallback="assets/screen-intent.jpg" aria-label="Open screenshot: Intent selection">
+            <picture>
+              <source srcset="assets/screen-intent.webp" type="image/webp" />
+              <img src="assets/screen-intent.jpg" alt="Intent selection screen" loading="lazy" />
+            </picture>
+          </button>
+          <button class="screen" data-lightbox="assets/screen-gazecontrol.webp" data-fallback="assets/screen-gazecontrol.jpg" aria-label="Open screenshot: Gaze control">
+            <picture>
+              <source srcset="assets/screen-gazecontrol.webp" type="image/webp" />
+              <img src="assets/screen-gazecontrol.jpg" alt="Gaze control screen" loading="lazy" />
+            </picture>
+          </button>
+          <button class="screen" data-lightbox="assets/screen-ready.webp" data-fallback="assets/screen-ready.jpg" aria-label="Open screenshot: Ready to go">
+            <picture>
+              <source srcset="assets/screen-ready.webp" type="image/webp" />
+              <img src="assets/screen-ready.jpg" alt="Ready to go screen" loading="lazy" />
+            </picture>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCESSIBILITY / PRIVACY -->
+    <section id="accessibility" class="section">
+      <div class="container">
+        <div class="split">
+          <div>
+            <h2>Accessibility-first</h2>
+            <p class="lead-sm">
+              Gazely is built around a gaze-driven interface: fewer choices, bigger targets, and a consistent step-by-step flow.
+            </p>
+            <ul class="checklist">
+              <li>Large 2×2 option grid for easy gaze selection</li>
+              <li>Progressive disclosure: only show what matters next</li>
+              <li>Clear typography and high-contrast surfaces</li>
+              <li>Optional touch fallback (when enabled) and simple backtracking</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Designed to minimize data</h2>
+            <p class="lead-sm">
+              Gazely runs when you explicitly share a message into the app. It does not continuously read notifications or monitor your chats.
+            </p>
+            <ul class="checklist">
+              <li>You choose what text to share (manual transfer)</li>
+              <li>AI text generation via Claude API</li>
+              <li>We recommend publishing a clear privacy policy before launch</li>
+              <li>Security best practice: keep API keys off-device via a backend proxy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section id="screens" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Screenshots</h2>
+          <p>A quick look at the onboarding and gaze-driven intent flow.</p>
+        </div>
+
+        <div class="gallery" role="list">
+          <button class="gallery-item" role="listitem" data-lightbox="assets/screen-welcome.webp" data-fallback="assets/screen-welcome.jpg" aria-label="Open screenshot: Welcome">
+            <picture>
+              <source srcset="assets/screen-welcome.webp" type="image/webp" />
+              <img src="assets/screen-welcome.jpg" alt="Welcome to Gazely" loading="lazy" />
+            </picture>
+          </button>
+          <button class="gallery-item" role="listitem" data-lightbox="assets/screen-howitworks.webp" data-fallback="assets/screen-howitworks.jpg" aria-label="Open screenshot: How it works">
+            <picture>
+              <source srcset="assets/screen-howitworks.webp" type="image/webp" />
+              <img src="assets/screen-howitworks.jpg" alt="How it works" loading="lazy" />
+            </picture>
+          </button>
+          <button class="gallery-item" role="listitem" data-lightbox="assets/screen-gazecontrol.webp" data-fallback="assets/screen-gazecontrol.jpg" aria-label="Open screenshot: Gaze control">
+            <picture>
+              <source srcset="assets/screen-gazecontrol.webp" type="image/webp" />
+              <img src="assets/screen-gazecontrol.jpg" alt="Gaze control" loading="lazy" />
+            </picture>
+          </button>
+          <button class="gallery-item" role="listitem" data-lightbox="assets/screen-ready.webp" data-fallback="assets/screen-ready.jpg" aria-label="Open screenshot: Ready to go">
+            <picture>
+              <source srcset="assets/screen-ready.webp" type="image/webp" />
+              <img src="assets/screen-ready.jpg" alt="Ready to go" loading="lazy" />
+            </picture>
+          </button>
+          <button class="gallery-item" role="listitem" data-lightbox="assets/screen-intent.webp" data-fallback="assets/screen-intent.jpg" aria-label="Open screenshot: Intent selection">
+            <picture>
+              <source srcset="assets/screen-intent.webp" type="image/webp" />
+              <img src="assets/screen-intent.jpg" alt="Intent selection" loading="lazy" />
+            </picture>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ</h2>
+          <p>Quick answers for launch pages, reviewers, and early users.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Who is Gazely for?</summary>
+            <div class="faq-body">
+              Anyone who finds typing difficult — especially people with motor impairments — and anyone who wants quick, clear replies.
+            </div>
+          </details>
+          <details>
+            <summary>Which apps does it work with?</summary>
+            <div class="faq-body">
+              Any app that supports Android’s Share menu (e.g., WhatsApp, SMS, email, messaging platforms). You share a message into Gazely.
+            </div>
+          </details>
+          <details>
+            <summary>Does Gazely read my messages automatically?</summary>
+            <div class="faq-body">
+              No — not in the current version. Message transfer is manual: you choose the message and share it into Gazely.
+            </div>
+          </details>
+          <details>
+            <summary>What powers the AI replies?</summary>
+            <div class="faq-body">
+              Text generation is powered by the Claude API. Your selected intent/tone guides the prompt to keep responses aligned.
+            </div>
+          </details>
+          <details>
+            <summary>When will it be on Google Play?</summary>
+            <div class="faq-body">
+              Soon. Join the waitlist to get notified when the first public build is available.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET UPDATES -->
+    <section id="get" class="cta">
+      <div class="container">
+        <div class="cta-card">
+          <div>
+            <h2>Get launch updates</h2>
+            <p>
+              Want early access, beta testing, or a quick demo? Leave your email and we’ll reach out.
+            </p>
+          </div>
+          <form class="cta-form" data-mailto>
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@domain.com" autocomplete="email" required />
+            <button class="btn" type="submit">Request access</button>
+          </form>
+          <p class="fineprint">
+            This form opens your email client (no tracking). You can swap it for Formspree, Mailchimp, or your own backend later.
+          </p>
+        </div>
+
+        <div class="press">
+          <div class="press-card">
+            <h3>Press / Partnerships</h3>
+            <p>Clinicians, accessibility orgs, assistive-tech programs — we’d love to collaborate.</p>
+            <a class="btn btn-ghost" href="mailto:hello@gazely.app?subject=Gazely%20partnership">Email us</a>
+          </div>
+          <div class="press-card">
+            <h3>Press kit</h3>
+            <p>Logo and icons for your write-up or store listing.</p>
+            <a class="btn btn-ghost" href="assets/icon-512.png" download>Download icon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="brand brand-small">
+          <img class="brand-mark" src="assets/logo.webp" alt="" width="32" height="32" loading="lazy" />
+          <span class="brand-name">Gazely</span>
+        </div>
+        <p class="muted">© <span id="year"></span> Gazely. All rights reserved.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#screens">Screenshots</a>
+        <a href="mailto:hello@gazely.app?subject=Gazely%20support">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" data-lightbox-root aria-hidden="true">
+    <button class="lightbox-backdrop" data-lightbox-close aria-label="Close"></button>
+    <figure class="lightbox-figure" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+      <img class="lightbox-img" data-lightbox-img alt="" />
+      <button class="lightbox-close" data-lightbox-close aria-label="Close preview">×</button>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

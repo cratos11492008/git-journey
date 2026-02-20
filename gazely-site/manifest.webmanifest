@@ -1,0 +1,12 @@
+{
+  "name": "Gazely",
+  "short_name": "Gazely",
+  "description": "Reply to messages using gaze control and AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f14",
+  "theme_color": "#DC6450",
+  "icons": [
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
